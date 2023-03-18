@@ -28,7 +28,7 @@ SH_1 <- WDI(
 
 
 
-# Mean and Median
+# Average and Median
 SH_1 %>%
   arrange(desc(year)) %>%
   filter(country == "Ethiopia")
